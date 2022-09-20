@@ -20,21 +20,46 @@
 
 .img-profil {
   clip-path:ellipse(50% 50%);
-  width: 200px;
+  width: 150px;
   height: auto;
-  margin: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 100%;
 }
 
-.centre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media all and (min-width: 400px) {
+  .centre {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+  }
 }
 
-.card-width {
-  width: 25%;
-  margin-right: 1%;
-  margin-left: 1%;
+@media all and (max-width: 399px) {
+  .card-width {
+    width: 100%;
+    margin: 1%;
+  }
+}
+
+@media all and (min-width: 400px) {
+  .card-width {
+    width: 250px;
+    margin: 1%;
+    transition: all .2s ease-in-out;
+  }
+
+  .card-width:hover {
+    box-shadow:
+            0 0 8px #fff,
+            inset 0 0 8px #fff,
+            0 0 16px #5F13F7FF,
+            inset 0 0 16px #5F13F7FF,
+            0 0 32px #5F13F7FF,
+            inset 0 0 32px #5f13f7;
+    background-color: rgba(95, 19, 247, 0.5);
+    transform: scale(1.1);
+  }
 }
 
 .text-center {
