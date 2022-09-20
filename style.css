@@ -17,3 +17,26 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #6610F2; 
 }
+
+.img-profil {
+  clip-path:ellipse(50% 50%);
+  width: 200px;
+  height: auto;
+  margin: 10%;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-width {
+  width: 25%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.text-center {
+  text-align: center;
+}
