@@ -66,6 +66,8 @@
   text-align: center;
 }
 .neon{
+    display:flex;
+    justify-content:center;
     animation-name: animate;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
