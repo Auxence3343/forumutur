@@ -27,7 +27,14 @@
   max-width: 100%;
 }
 
-@media all and (min-width: 400px) {
+/*@media all and (max-width: 500px) {*/
+/*    .centre {*/
+/*        margin: 0 auto;*/
+/*        width: 98%;*/
+/*    }*/
+/*}*/
+
+@media all and (min-width: 500px) {
   .centre {
     display: flex;
     margin: 0 auto;
@@ -35,14 +42,14 @@
   }
 }
 
-@media all and (max-width: 399px) {
+@media all and (max-width: 500px) {
   .card-width {
     width: 90%;
-    margin: 1%;
+    margin: 1% auto;
   }
 }
 
-@media all and (min-width: 400px) {
+@media all and (min-width: 500px) {
   .card-width {
     width: 250px;
     margin: 1%;
