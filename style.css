@@ -27,51 +27,67 @@
   max-width: 100%;
 }
 
-/*@media all and (max-width: 500px) {*/
-/*    .centre {*/
-/*        margin: 0 auto;*/
-/*        width: 98%;*/
-/*    }*/
-/*}*/
-
-@media all and (min-width: 500px) {
-  .centre {
-    display: flex;
-    margin: 0 auto;
-    width: fit-content;
-  }
-}
-
 @media all and (max-width: 500px) {
-  .card-width {
-    width: 90%;
-    margin: 1% auto;
-  }
+    .img-defis {
+        width: 75%;
+        height: auto;
+        margin: 1% auto;
+        display: flex;
+    }
+
+    .card-width {
+        width: 90%;
+        margin: 1% auto;
+    }
+
 }
 
 @media all and (min-width: 500px) {
-  .card-width {
-    width: 250px;
-    margin: 1%;
-    transition: all .2s ease-in-out;
-  }
+    .img-defis {
+        width: 25%;
+        height: auto;
+        margin: 1% auto;
+        display: flex;
+    }
 
-  .card-width:hover {
-    box-shadow:
-            0 0 8px #fff,
-            inset 0 0 8px #fff,
-            0 0 16px #5F13F7FF,
-            inset 0 0 16px #5F13F7FF,
-            0 0 32px #5F13F7FF,
-            inset 0 0 32px #5f13f7;
-    background-color: rgba(95, 19, 247, 0.5);
-    transform: scale(1.1);
-  }
+    .img-defis-div {
+        width: 25%;
+        height: auto;
+    }
+
+    .grp-img {
+         display: flex;
+     }
+
+    .centre {
+        display: flex;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    .card-width {
+        width: 250px;
+        margin: 1%;
+        transition: all .2s ease-in-out;
+    }
+
+    .card-width:hover {
+        box-shadow:
+                0 0 8px #fff,
+                inset 0 0 8px #fff,
+                0 0 16px #5F13F7FF,
+                inset 0 0 16px #5F13F7FF,
+                0 0 32px #5F13F7FF,
+                inset 0 0 32px #5f13f7;
+        background-color: rgba(95, 19, 247, 0.5);
+        transform: scale(1.1);
+    }
 }
 
 .text-center {
   text-align: center;
 }
+
 .neon{
     display:flex;
     justify-content:center;
@@ -80,6 +96,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
 @keyframes animate {
   0% {
     filter: drop-shadow(0px 0px 1px #fff)
