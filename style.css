@@ -40,6 +40,19 @@
         margin: 1% auto;
     }
 
+    .video {
+        width: 100%;
+        height: auto;
+        margin: 1% auto;
+        display: flex;
+    }
+
+    .videov {
+        width: 50%;
+        height: auto;
+        margin: 1% auto;
+        display: flex;
+    }
 }
 
 @media all and (min-width: 500px and (min-aspect-ratio:1/1) ) {
@@ -53,6 +66,13 @@
     .img-defis-div {
         width: 25%;
         height: auto;
+    }
+
+    .video {
+        width: 75%;
+        height: auto;
+        margin: 1% auto;
+        display: flex;
     }
 
     .grp-img {
